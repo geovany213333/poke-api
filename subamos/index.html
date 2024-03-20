@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<html>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>somos pro</title>
+
+    <link rel="shortcut icon" href="./images/poke.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css" />
+
+    
+
+<body onclick="playAudio()" >
+    <main class="flex"></main>
+
+    
+
+  
+  
+    <template id="card">
+      <article class="card">
+        <img
+          src="./images/fondo5.gif"
+          alt="imagen header card"
+          class="card-header"
+        />
+        <div class="card-body">
+          <img
+            src="./images/image-victor.jpg"
+            alt="imagen de vitoko"
+            class="card-body-img"
+          />
+          <h1 class="card-body-title">
+            Victor charst
+            <span>26</span>
+          </h1>
+          <p class="card-body-text">London</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-footer-social">
+            <h3>80K</h3>
+            <p>Ataque</p>
+          </div>
+          <div class="card-footer-social">
+            <h3>803K</h3>
+            <p>Ataque Especial</p>
+          </div>
+          <div class="card-footer-social">
+            <h3>1.4K</h3>
+            <p>Defensa</p>
+            </div>
+        </div>
+      </article>
+      </template>
+
+    <footer>
+      <div class="pie">
+          <p>@Copyright 2024 desarrollado por Marlon Garcia</p>
+      </div>
+  </footer>
+</div>
+  
+    <script src="app.js"></script>
+    
+    <audio id="audio1"  autoplay>
+      <source src="music/saxo.mp3" type="audio/mpeg">
+      
+    </audio>
+    <script>
+      function playAudio() {
+        document.getElementById("audio1").play();
+      }
+      
+    </script>
+    
+  </body>
+  </html>
